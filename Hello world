@@ -1,0 +1,14 @@
+class RinkiRaghuwanshi():
+    
+  def __init__(self):
+    self.name = "Rinki Raghuwanshi";
+    self.username = "Rinki2301";
+    self.location = "Pipariya, India";
+    self.twitter = "@RinkiRaghuwans2";
+    self.web = "#;
+  
+  def __str__(self):
+    return self.name
+
+if __name__ == '__main__':
+    me = RinkiRaghuwanshi()
